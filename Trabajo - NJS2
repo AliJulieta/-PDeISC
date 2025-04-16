@@ -1,0 +1,4 @@
+// módulo que devuelve la hora actual
+ function getHoraActual()
+  { return
+     new Date().toLocaleTimeString(); } module.exports = { getHoraActual };
